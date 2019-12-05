@@ -1,0 +1,18 @@
+This is the documentation for Nicholas Learner's Proj10 for CS 202-1001 at UNR, due @ midnight, 11-27-19.
+
+The purpose, operation, etc. of this program is very similary to that of the previous project, Project 9.
+
+The purpose of this program is to create (declare), implement, and use (test) templated ArrayStack and NodeStack
+objects, within provided specifications.
+
+ArrayStack uses the "m_top"-th element as the top of the stack (i.e., the top is m_container[m_top-1]), while NodeStack
+uses the first Node as m_top, in order to properly traverse the NodeStack object when necessary.
+
+All of the tests are listed when the program is run using the Makefile, and much of the code used in proj10.cpp is copied
+from my proj9.cpp, with the addition of templating ArrayStack for Datatype objects and doubles, and templating NodeStack
+for DataType objects and chars (not strings or C-strings).
+
+If I were to spend more time on the project, I would do what I said I would in the documentation of my Project 9 (add
+bounds-checking for testing top() and adding a message to each class' methods), along with expanding the testing of each
+Stack using more type of data.
+
